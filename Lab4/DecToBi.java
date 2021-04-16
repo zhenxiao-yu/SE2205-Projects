@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Dec2Bi {
      public static void DecimalToBinary(int number) {
         if (number != 0) {
@@ -15,6 +16,7 @@ public class Dec2Bi {
         System.out.println("Please enter your decimal number: ");
         userInput = s.nextInt();
         System.out.println("The binary representation of your number is: ");
+         //using recursive calls
         DecimalToBinary(userInput);
     }
 }
